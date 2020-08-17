@@ -1,5 +1,20 @@
-if then else end repeat until read write
-or and int bool string while do true false not
-{	} ; := + - * / ( ) < = 
-> <= >= ,
-gzy28 123 'gzy'
+int x,fact,A,B,C,D;
+bool y;
+string z;
+
+{This is a comment.}
+read x;
+
+repeat
+    A:=A*2
+until (A+C) < (B+D);
+
+while (A+B+C) < 10 do
+    B := B + 3
+end;
+
+if x < 10 and x > 5 or x < 9 then
+    fact := 4
+else
+    fact := 6
+end;
